@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    container_name: laravel-oracle
+    image: jjuanrivvera99/ubuntu18.04-apache2-php7.2-oracleclient12.2:latest
+    ports:
+      - 80:80
+    volumes:
+      - "./:/var/www"
