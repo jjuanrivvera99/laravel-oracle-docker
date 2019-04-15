@@ -22,17 +22,15 @@ Take the following steps:
 - run command: 'composer install'
 - create a '.env' file
 - run command: 'php artisan key:generate'
-- run command: 'sudo chmod 777 -R storage' *
-- run command: 'sudo chmod 777 -R bootstrap' *
-- run command: 'sudo chmod 777 -R public' *
+- run command: 'chmod 777 -R storage'
+- run command: 'chmod 777 -R bootstrap'
+- run command: 'chmod 777 -R public'
 
 Optionally commnads
 
 - php artisan make:auth
 - php artisan config:cache
 - php artisan migrate
-
-*Only if you are using OS X or GNU/Linux (If you are using Windows, make sure that these folders have write permissions)
 
 ## License
 
