@@ -22,9 +22,7 @@ Take the following steps:
 - run command: 'composer install'
 - create a '.env' file
 - run command: 'php artisan key:generate'
-- run command: 'chmod 777 -R storage'
-- run command: 'chmod 777 -R bootstrap'
-- run command: 'chmod 777 -R public'
+- run command: 'chmod 777 -R storage bootstrap public'
 
 Optionally commnads
 
